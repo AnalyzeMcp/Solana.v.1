@@ -1,0 +1,33 @@
+{
+  "name": "solana-wallet-generator",
+  "version": "1.0.0",
+  "description": "A Solana wallet generator toolkit with key management and transaction signing capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.73.0",
+    "bip39": "^3.0.4",
+    "ed25519-hd-key": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "eslint": "^8.35.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "blockchain",
+    "crypto"
+  ],
+  "author": "Analyze.MCP Team",
+  "license": "MIT"
+}
